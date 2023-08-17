@@ -32,3 +32,6 @@ document.getElementById('coupon-btn').addEventListener('click', function () {
         alert('Invalid coupon code');
     }
 });
+document.getElementById('buy-now-btn').addEventListener('click', function () {
+    $('#purchaseModal').modal('show'); // Show the modal
+});

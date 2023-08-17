@@ -72,9 +72,36 @@
                     <h5>Grand Total: <span id="grand-total">00</span> $</h5>
                 </div>
 
-                <div class="coupon"></div>
+                <div class="cart-box">
+                    <!-- ... Grand Total and Discount sections ... -->
+                    <!-- After the Grand Total -->
+                    <button id="buy-now-btn" class="btn btn-primary">Buy Now</button>
+
+
+                </div>
             </div>
         </div>
+
+        <!-- Modal -->
+<div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="purchaseModalLabel">Purchase Confirmation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Thank you for purchasing the flowers! Your order has been placed successfully.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
 
     </section>
 
